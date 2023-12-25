@@ -1,0 +1,134 @@
+POST http://localhost:3000/registerAdmin
+Content-Type: application/json
+
+{
+    "username":"Admin",
+    "password":"1234",
+    "name":"CEO Deen",
+    "email":"Deen@gmail.com",
+    "phoneNumber":"0123456789",
+    "role":"Admin"
+}
+
+###
+POST http://localhost:3000/loginAdmin
+Content-Type: application/json
+
+{
+    "username":"Admin",
+    "password":"1234"
+}
+
+###
+GET http://localhost:3000/readAdmin
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTg5N2YwYTk0NmExOTQyNmJjNTMxYmIiLCJ1c2VybmFtZSI6IkFkbWluIiwicGFzc3dvcmQiOiIkMmIkMTAkM2dEUm55d3hTaXBIYjgzLldpODlMdXV1QloyZ2swNmxrNEY4ajVVcmk2bVRlVHFLdG9zOWEiLCJuYW1lIjoiQ0VPIERlZW4iLCJlbWFpbCI6IkRlZW5AZ21haWwuY29tIiwicGhvbmVOdW1iZXIiOiIwMTIzNDU2Nzg5Iiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNzAzNTA5Nzc0LCJleHAiOjE3MDM1MTY5NzR9.mKaW0oRYSDSsQ_R0uPLLYChOccA8fF7t6JMq0MIy18s
+
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost:3000/registerSecurity
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTg5N2YwYTk0NmExOTQyNmJjNTMxYmIiLCJ1c2VybmFtZSI6IkFkbWluIiwicGFzc3dvcmQiOiIkMmIkMTAkM2dEUm55d3hTaXBIYjgzLldpODlMdXV1QloyZ2swNmxrNEY4ajVVcmk2bVRlVHFLdG9zOWEiLCJuYW1lIjoiQ0VPIERlZW4iLCJlbWFpbCI6IkRlZW5AZ21haWwuY29tIiwicGhvbmVOdW1iZXIiOiIwMTIzNDU2Nzg5Iiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNzAzNTA5Nzc0LCJleHAiOjE3MDM1MTY5NzR9.mKaW0oRYSDSsQ_R0uPLLYChOccA8fF7t6JMq0MIy18s
+Content-Type: application/json
+
+{
+    "username":"Security001",
+    "password":"1234",
+    "name":"Mr Amirul",
+    "email":"amirul@gmail.com",
+    "phoneNumber":"0123456789"
+}
+
+###
+POST http://localhost:3000/loginSecurity
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTg5N2YwYTk0NmExOTQyNmJjNTMxYmIiLCJ1c2VybmFtZSI6IkFkbWluIiwicGFzc3dvcmQiOiIkMmIkMTAkM2dEUm55d3hTaXBIYjgzLldpODlMdXV1QloyZ2swNmxrNEY4ajVVcmk2bVRlVHFLdG9zOWEiLCJuYW1lIjoiQ0VPIERlZW4iLCJlbWFpbCI6IkRlZW5AZ21haWwuY29tIiwicGhvbmVOdW1iZXIiOiIwMTIzNDU2Nzg5Iiwicm9sZSI6IkFkbWluIiwiaWF0IjoxNzAzNTA5Nzc0LCJleHAiOjE3MDM1MTY5NzR9.mKaW0oRYSDSsQ_R0uPLLYChOccA8fF7t6JMq0MIy18s
+Content-Type: application/json 
+
+{
+    "username":"Security001",
+    "password":"1234"
+}
+
+###
+GET http://localhost:3000/readSecurity
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTg5N2Y0Zjk0NmExOTQyNmJjNTMxYmMiLCJ1c2VybmFtZSI6IlNlY3VyaXR5MDAxIiwicGFzc3dvcmQiOiIkMmIkMTAkMlBGMzVzdUpmNFRjbEU1S3NlZ2FYT2pqZ01TRXRLb01ld2d1LndBMlhqbWFIajQ0M3UxdVMiLCJuYW1lIjoiTXIgQW1pcnVsIiwiZW1haWwiOiJhbWlydWxAZ21haWwuY29tIiwicGhvbmVOdW1iZXIiOiIwMTIzNDU2Nzg5Iiwicm9sZSI6IlNlY3VyaXR5IiwidmlzaXRvcnMiOltdLCJpYXQiOjE3MDM1MDk5NzAsImV4cCI6MTcwMzUxNzE3MH0.WLJ_cm3cA3ycZcKlS074Ei4-0mU4K_KhjCh5nppos5Q
+
+
+
+
+
+
+
+
+
+###
+POST http://localhost:3000/registerVisitor
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTg5N2Y0Zjk0NmExOTQyNmJjNTMxYmMiLCJ1c2VybmFtZSI6IlNlY3VyaXR5MDAxIiwicGFzc3dvcmQiOiIkMmIkMTAkMlBGMzVzdUpmNFRjbEU1S3NlZ2FYT2pqZ01TRXRLb01ld2d1LndBMlhqbWFIajQ0M3UxdVMiLCJuYW1lIjoiTXIgQW1pcnVsIiwiZW1haWwiOiJhbWlydWxAZ21haWwuY29tIiwicGhvbmVOdW1iZXIiOiIwMTIzNDU2Nzg5Iiwicm9sZSI6IlNlY3VyaXR5IiwidmlzaXRvcnMiOltdLCJpYXQiOjE3MDM1MDk5NzAsImV4cCI6MTcwMzUxNzE3MH0.WLJ_cm3cA3ycZcKlS074Ei4-0mU4K_KhjCh5nppos5Q
+Content-Type: application/json
+
+{
+    "username":"deen123",
+    "password":"1234",
+    "name":"Mr deenir",
+    "icNumber":"020308081029",
+    "company":"IM Company",
+    "vehicleNumber":"KKM1234",
+    "email":"deenur@gmail.com",
+    "phoneNumber":"0145012337"  
+}
+
+###
+POST http://localhost:3000/loginVisitor
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTg5N2Y0Zjk0NmExOTQyNmJjNTMxYmMiLCJ1c2VybmFtZSI6IlNlY3VyaXR5MDAxIiwicGFzc3dvcmQiOiIkMmIkMTAkMlBGMzVzdUpmNFRjbEU1S3NlZ2FYT2pqZ01TRXRLb01ld2d1LndBMlhqbWFIajQ0M3UxdVMiLCJuYW1lIjoiTXIgQW1pcnVsIiwiZW1haWwiOiJhbWlydWxAZ21haWwuY29tIiwicGhvbmVOdW1iZXIiOiIwMTIzNDU2Nzg5Iiwicm9sZSI6IlNlY3VyaXR5IiwidmlzaXRvcnMiOltdLCJpYXQiOjE3MDM1MDk5NzAsImV4cCI6MTcwMzUxNzE3MH0.WLJ_cm3cA3ycZcKlS074Ei4-0mU4K_KhjCh5nppos5Q
+Content-Type: application/json 
+
+{
+    "username":"deen123",
+    "password":"1234"
+}
+
+###
+GET http://localhost:3000/readVisitor
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTg5N2ZmMTk0NmExOTQyNmJjNTMxYmQiLCJ1c2VybmFtZSI6ImRlZW4xMjMiLCJwYXNzd29yZCI6IiQyYiQxMCR5UFhiYVJBMzQzR0FIODRLWmFHZk91UGtaVVBndXFtZzYzdjN6Z2dQVW5Jd2ZwVVYzTGNFZSIsIm5hbWUiOiJNciBkZWVuaXIiLCJlbWFpbCI6ImRlZW51ckBnbWFpbC5jb20iLCJTZWN1cml0eSI6IlNlY3VyaXR5MDAxIiwiY29tcGFueSI6IklNIENvbXBhbnkiLCJ2ZWhpY2xlTnVtYmVyIjoiS0tNMTIzNCIsImljTnVtYmVyIjoiMDIwMzA4MDgxMDI5IiwicGhvbmVOdW1iZXIiOiIwMTQ1MDEyMzM3Iiwicm9sZSI6IlZpc2l0b3IiLCJyZWNvcmRzIjpbXSwiaWF0IjoxNzAzNTEwMDQ1LCJleHAiOjE3MDM1MTcyNDV9.7Du6XfkS1cwFlzwxgZV4vnhPeQeUS6uz44PSm5ghBYw
+
+
+###
+POST http://localhost:3000/checkIn
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTg5N2ZmMTk0NmExOTQyNmJjNTMxYmQiLCJ1c2VybmFtZSI6ImRlZW4xMjMiLCJwYXNzd29yZCI6IiQyYiQxMCR5UFhiYVJBMzQzR0FIODRLWmFHZk91UGtaVVBndXFtZzYzdjN6Z2dQVW5Jd2ZwVVYzTGNFZSIsIm5hbWUiOiJNciBkZWVuaXIiLCJlbWFpbCI6ImRlZW51ckBnbWFpbC5jb20iLCJTZWN1cml0eSI6IlNlY3VyaXR5MDAxIiwiY29tcGFueSI6IklNIENvbXBhbnkiLCJ2ZWhpY2xlTnVtYmVyIjoiS0tNMTIzNCIsImljTnVtYmVyIjoiMDIwMzA4MDgxMDI5IiwicGhvbmVOdW1iZXIiOiIwMTQ1MDEyMzM3Iiwicm9sZSI6IlZpc2l0b3IiLCJyZWNvcmRzIjpbXSwiaWF0IjoxNzAzNTEwMDQ1LCJleHAiOjE3MDM1MTcyNDV9.7Du6XfkS1cwFlzwxgZV4vnhPeQeUS6uz44PSm5ghBYw
+Content-Type: application/json
+
+{
+    "recordID":"Record002",
+    "purpose":"Meeting"
+}
+
+###
+PATCH http://localhost:3000/checkOut
+Authorization: Bearer git yJfaWQiOiI2NTg5N2ZmMTk0NmExOTQyNmJjNTMxYmQiLCJ1c2VybmFtZSI6ImRlZW4xMjMiLCJwYXNzd29yZCI6IiQyYiQxMCR5UFhiYVJBMzQzR0FIODRLWmFHZk91UGtaVVBndXFtZzYzdjN6Z2dQVW5Jd2ZwVVYzTGNFZSIsIm5hbWUiOiJNciBkZWVuaXIiLCJlbWFpbCI6ImRlZW51ckBnbWFpbC5jb20iLCJTZWN1cml0eSI6IlNlY3VyaXR5MDAxIiwiY29tcGFueSI6IklNIENvbXBhbnkiLCJ2ZWhpY2xlTnVtYmVyIjoiS0tNMTIzNCIsImljTnVtYmVyIjoiMDIwMzA4MDgxMDI5IiwicGhvbmVOdW1iZXIiOiIwMTQ1MDEyMzM3Iiwicm9sZSI6IlZpc2l0b3IiLCJyZWNvcmRzIjpbXSwiaWF0IjoxNzAzNTEwMDQ1LCJleHAiOjE3MDM1MTcyNDV9.7Du6XfkS1cwFlzwxgZV4vnhPeQeUS6uz44PSm5ghBYw
+
+
+###
+PATCH http://localhost:3000/updateVisitor
+Authorization: Bearer 
+Content-Type: application/json 
+    
+    {
+        "password":"1234",
+        "name":"Mr Imran",
+        "icNumber":"020308081029",
+        "company":"IM Company",
+        "vehicleNumber":"BMK1234",
+        "email":"Imran@gmail.com",
+        "phoneNumber":"0131101015"
+    }
+
+
+###
+DELETE http://localhost:3000/deleteVisitor
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDlmZmM4ODRiOGExYjFhZjZkZmQ1NjQiLCJ1c2VybmFtZSI6ImRlZW4xMjMiLCJwYXNzd29yZCI6IiQyYiQxMCRoTHdkSGJPMERKamg3UU84ODIzMncuUFdzanBlYUtxTEIxT21sRi52QzdPSjlHWUl4d3ZyQyIsIm5hbWUiOiJNciBkZWVuaXIiLCJlbWFpbCI6ImRlZW51ckBnbWFpbC5jb20iLCJwaG9uZU51bWJlciI6IjAxNDUwMTIzMzciLCJyb2xlIjoiU2VjdXJpdHkiLCJ2aXNpdG9ycyI6W10sImlhdCI6MTY4ODIwNjUzNCwiZXhwIjoxNjg4MjEzNzM0fQ.OwliKZwJqPQWJv-R4G62j_3s8lTUFUtTlI8hN9OxBBs
